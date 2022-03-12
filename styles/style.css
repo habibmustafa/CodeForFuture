@@ -169,7 +169,7 @@ header {
 }
 
 .section_1-content-title {
-    max-width: 260px;
+    max-width: 235px;
     margin-bottom: 18px;
 }
 
@@ -201,8 +201,41 @@ header {
 .grid-section {
     display: grid;
     grid-template-columns: auto auto;
-    color: #fff;
     grid-gap: 60px 131px;
+}
+
+.grid-part:nth-child(odd) {
+    max-width: 370px;
+}
+
+.grid-title {
+    margin-bottom: 16px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 83%;
+    letter-spacing: 0.03em;
+    color: #30FFCD;
+}
+
+.grid__text {
+    margin-bottom: 31px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.grid__down {
+    font-weight: 500;
+    font-size: 10.0042px;
+    line-height: 150%;
+    color: #fff;
+    opacity: 0.62;
+}
+
+.grid__text_1 {
+    max-width: 240px;
 }
 
 /* section_2 styles end */
