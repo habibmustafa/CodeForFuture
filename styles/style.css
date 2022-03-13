@@ -54,6 +54,7 @@ body {
 header {
     background: url(../images/header1.png);
     background-size: cover;
+    background-position: center;
 }
 
 .header-wrapper {
@@ -101,6 +102,10 @@ header {
     padding: 86px 0 178px;
 }
 
+.header-content .header-images {
+    display: none;
+}
+
 .header-title {
     font-family: 'Oswald', sans-serif;
     font-style: normal;
@@ -135,7 +140,7 @@ header {
 
 /* header styles start */
 
-/* section_1 styles start */
+/* section1 styles start */
 
 .section1 {
     margin: 113px 0 104px;
@@ -169,6 +174,10 @@ header {
     display: flex;
 }
 
+.section1-content .section__form {
+    display: none;
+}
+
 .section1-card:first-child {
     margin-right: 172px;
 }
@@ -198,9 +207,9 @@ header {
     color: #382459;
 }
 
-/* section_1 styles end */
+/* section1 styles end */
 
-/* section_2 styles start */
+/* section2 styles start */
 
 .section2 {
     background: #382459;
@@ -244,14 +253,14 @@ header {
 
 .grid__down {
     font-weight: 500;
-    font-size: 10.0042px;
+    font-size: 10px;
     line-height: 150%;
     color: #fff;
     opacity: 0.62;
 }
-/* section_2 styles end */
+/* section2 styles end */
 
-/* section_3 styles start */
+/* section3 styles start */
 
 .section3 {
     margin: 110px 0 136px;
