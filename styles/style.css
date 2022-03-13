@@ -289,17 +289,17 @@ header {
     color: #382459;
 }
 
-.section3-card:nth-child(1) {
+.section3-card:nth-of-type(1) {
     max-width: 269px;
     margin-right: 15px;
 }
 
-.section3-card:nth-child(2) {
+.section3-card:nth-of-type(2) {
     max-width: 320px;
     margin-right: 15px;
 }
 
-.section3-card:nth-child(3) {
+.section3-card:nth-of-type(3) {
     max-width: 261px;
 }
 
@@ -311,11 +311,11 @@ header {
     max-width: 320px;
 }
 
-.section3-card:nth-child(odd) .card-title {
+.section3-card:nth-of-type(odd) .card-title {
     max-width: 210px;
 }
 
-.section3-card:nth-child(2) .card-text {
+.section3-card:nth-of-type(2) .card-text {
     max-width: 260px;
 }
 

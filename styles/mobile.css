@@ -4,7 +4,7 @@
     .section-title {
         font-style: normal;
         font-size: 24.7px;
-        line-height: 203%;
+        line-height: 113%;
     }
 
     .content-title {
@@ -184,4 +184,61 @@
     }
 
     /* section2 styles end */
+
+    /* section3 styles start */
+
+    .section3 {
+        margin: 79px 0 56px;
+    }
+
+    .section3-title {
+        margin-bottom: 25px;
+        max-width: 100%;
+    }
+
+    .section3-cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section3-card:nth-of-type(1) {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    
+    .section3-card:nth-of-type(2) {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    
+    .section3-card:nth-of-type(3) {
+        max-width: 100%;
+    }
+
+    .card-title {
+        font-size: 18px;
+        line-height: 111%;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .section3-card:nth-of-type(odd) .card-title {
+        max-width: 100%;
+    }
+
+    .section3-card:nth-of-type(2) .card-text {
+        max-width: 100%;
+    }
+
+    .card-text {
+        max-width: 100%;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 145%;
+    }
+
+    /* section3 styles end */
 }
