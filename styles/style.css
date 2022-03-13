@@ -152,7 +152,7 @@ header {
     max-width: 470px;
 }
 
-.section1__form {
+.section__form {
     width: 224px;
     height: 49px;
     padding: 13px 29px;
@@ -377,6 +377,7 @@ header {
 
 .section5 .container {
     position: relative;
+    /* display: flex; */
 }
 
 .section5-title {
@@ -394,7 +395,17 @@ header {
     top: -210px;
 }
 
+/* @media(max-width: 960px){
+    .section5 img {
+        right: -6%;
+        top: -145px;
+        width: 300px;
+    }
+} */
+
 /* section5 styles end */
+
+/* section6 styles start */
 
 .section6 {
     position: relative;
@@ -402,3 +413,77 @@ header {
     background: #382459;
     z-index: 2;
 }
+
+.section6 .container {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.section6 img {
+    position: absolute;
+    left: -70px;
+    top: -135px;
+    width: 56%;
+    z-index: -2;
+}
+
+.section6 .content {
+    margin-right: 8%;
+}
+
+.section6-title {
+    color: #30FFCD;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+    max-width: 402px;
+    line-height: 111%;
+}
+
+.section6-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 146%;
+    color: #FFFFFF;
+    max-width: 480px;
+    margin-bottom: 43px;
+}
+
+/* section6 styles end */
+
+/* footer styles start */
+
+.footer {
+    margin: 89px 0;
+}
+
+.side-up,
+.side-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-up {
+    margin-bottom: 39px;
+}
+
+.mail-tel {
+    max-width: 196px;
+}
+
+.altadnsu {
+    margin: 0 22px;
+}
+
+.side-down .text {
+    max-width: 269px;
+}
+
+.instagram {
+    margin-right: 169px;
+}
+
+
+
+/* footer styles end */
