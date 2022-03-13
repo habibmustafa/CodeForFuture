@@ -38,6 +38,15 @@ body {
     color: #382459;
 }
 
+.colorful-title {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+    color: #30FFCD;
+}
+
 /* general styles end */
 
 /* header styles start */
@@ -121,14 +130,14 @@ header {
     letter-spacing: 0.05em;
     color: #fff;
     border-bottom: 2px dashed #FFE920;
-    max-width: 255px;
+    max-width: 258px;
 }
 
 /* header styles start */
 
 /* section_1 styles start */
 
-.section_1 {
+.section1 {
     margin: 113px 0 104px;
 }
 
@@ -139,11 +148,11 @@ header {
     margin-bottom: 128px;
 }
 
-.section_1-title {
+.section1-title {
     max-width: 470px;
 }
 
-.section_1__form {
+.section1__form {
     width: 224px;
     height: 49px;
     padding: 13px 29px;
@@ -156,11 +165,11 @@ header {
     color: #fff;
 }
 
-.section_1-content {
+.section1-content {
     display: flex;
 }
 
-.section_1-card:first-child {
+.section1-card:first-child {
     margin-right: 172px;
 }
 
@@ -168,7 +177,7 @@ header {
     margin: 9px 0 34px;
 }
 
-.section_1-content-title {
+.section1-content-title {
     max-width: 260px;
     margin-bottom: 18px;
 }
@@ -177,11 +186,11 @@ header {
     margin-bottom: 25px;
 }
 
-.section_1-content-title-2 {
+.section1-content-title-2 {
     max-width: 356px;
 }
 
-.section_1__text {
+.section1__text {
     max-width: 330px;
     font-weight: 500;
     font-size: 16px;
@@ -193,7 +202,7 @@ header {
 
 /* section_2 styles start */
 
-.section_2 {
+.section2 {
     background: #382459;
     padding: 99px 0 106px;
 }
@@ -207,12 +216,6 @@ header {
 
 .grid-title {
     margin-bottom: 16px;
-    font-family: 'Oswald';
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 83%;
-    letter-spacing: 0.03em;
-    color: #30FFCD;
 }
 
 .grid__text {
@@ -250,42 +253,44 @@ header {
 
 /* section_3 styles start */
 
-.section_3 {
+.section3 {
     margin: 110px 0 136px;
 }
 
-/* .section_3 img {
+.section3 .container {
     position: relative;
-    height: 0;
-    background-color: #30FFCD;
-    right: 0;
-    top: -200px;
-} */
+}
 
-.section_3-title {
+.section3 img {
+    position: absolute;
+    right: 0;
+    top: -222px;
+}
+
+.section3-title {
     margin-bottom: 111px;
 }
 
-.section_3-cards {
+.section3-cards {
     display: flex;
     justify-content: space-between;
 }
 
-.section_3-card {
+.section3-card {
     color: #382459;
 }
 
-.section_3-card:nth-child(1) {
+.section3-card:nth-child(1) {
     max-width: 269px;
     margin-right: 15px;
 }
 
-.section_3-card:nth-child(2) {
+.section3-card:nth-child(2) {
     max-width: 320px;
     margin-right: 15px;
 }
 
-.section_3-card:nth-child(3) {
+.section3-card:nth-child(3) {
     max-width: 261px;
 }
 
@@ -297,11 +302,11 @@ header {
     max-width: 320px;
 }
 
-.section_3-card:nth-child(odd) .card-title {
+.section3-card:nth-child(odd) .card-title {
     max-width: 210px;
 }
 
-.section_3-card:nth-child(2) .card-text {
+.section3-card:nth-child(2) .card-text {
     max-width: 260px;
 }
 
@@ -313,8 +318,87 @@ header {
 
 /* section_3 styles end */
 
+/* yuxarı klas adlarına yenidən bax */
+
 /* section_4 styles start */
 
+.section4 {
+    background: #382459;
+    padding: 106px 0 107px;
+}
 
+.section4 .container {
+    display: flex;
+}
+
+.leftside {
+    width: 50%;
+}
+
+.rightside {
+    width: 50%;
+    margin-left:47px;
+}
+
+.section4-title {
+    margin-bottom: 76px;
+}
+
+.leftside__text,
+.rightside__text {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 70px;
+}
+
+.leftside__text {
+    max-width: 436px;
+}
+
+.rightside__text {
+    max-width: 344px;
+}
+
+/* .section4__buttton {
+    width: 120px;
+    height: 40px;
+    background-color: aqua;
+} */
 
 /* section_4 styles end */
+
+/* section5 styles start */
+
+.section5 {
+    margin: 114px 0 108px;
+}
+
+.section5 .container {
+    position: relative;
+}
+
+.section5-title {
+    margin-bottom: 50px;
+    max-width: 496px;
+}
+
+.section5-text {
+    max-width: 370px;
+}
+
+.section5 img {
+    position: absolute;
+    right: -70px;
+    top: -210px;
+}
+
+/* section5 styles end */
+
+.section6 {
+    position: relative;
+    padding: 152px 0 136px;
+    background: #382459;
+    z-index: 2;
+}
