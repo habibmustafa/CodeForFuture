@@ -1,4 +1,4 @@
-@media(max-width:480px) {
+@media(max-width:540px) {
     /* general styles start */
 
     .section-title {
@@ -120,7 +120,7 @@
     }
 
     .section1-content-title {
-        max-width: 195px;
+        max-width: 100%;
         margin-bottom: 15px;
     }
 
@@ -191,6 +191,10 @@
         margin: 79px 0 56px;
     }
 
+    .section3 img {
+        top: -188px;
+    }
+
     .section3-title {
         margin-bottom: 25px;
         max-width: 100%;
@@ -241,4 +245,92 @@
     }
 
     /* section3 styles end */
+
+    /* section4 styles start */
+
+    .section4 {
+        padding: 43px 0 68px;
+    }
+
+    .section4 .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightside {
+        display: none;
+    }
+    
+    .leftside {
+        width: 100%;
+    }
+
+    .section4 .container::before {
+        content: 'KURS SEÇİN';
+        font-family: 'Oswald';
+        font-weight: 700;
+        font-size: 24.7px;
+        line-height: 28px;
+        letter-spacing: 0.03em;
+        color: #30FFCD;
+        margin-bottom: 30px;
+    }
+
+    .section4-title {
+        font-size: 16px;
+        padding: 20px;
+        border: 1px solid #30FFCD;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .section4-title::after {
+        content: '^';
+        position: absolute;
+        right: 20px;
+        top: 23px;
+    }
+
+    .leftside__text {
+        font-size: 11px;
+        line-height: 145%;
+        margin-bottom: 35px;
+        max-width: 100%;
+    }
+
+    .section4__button {
+        font-size: 11px;
+        line-height: 145%;
+        text-align: center;
+        width: 135px;
+        height: 40px;
+        border: 1px solid #33DFC0;
+    }
+
+    /* section4 styles end */
+
+    /* section5 styles start */
+
+    .section5 {
+        margin: 79px 0 84px;
+    }
+
+    .section5 img {
+        display: none;
+    }
+
+    .section5-title {
+        margin-bottom: 17px;
+        max-width: 100%;
+    }
+
+    .section5-text {
+        max-width: 370px;
+        font-size: 11px;
+        line-height: 145%;
+    }
+
+    /* section5 styles end */
+
+    
 }

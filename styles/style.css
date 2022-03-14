@@ -325,11 +325,11 @@ header {
     line-height: 150%;
 }
 
-/* section_3 styles end */
+/* section3 styles end */
 
 /* yuxarı klas adlarına yenidən bax */
 
-/* section_4 styles start */
+/* section4 styles start */
 
 .section4 {
     background: #382459;
@@ -370,13 +370,21 @@ header {
     max-width: 344px;
 }
 
-/* .section4__buttton {
-    width: 120px;
-    height: 40px;
-    background-color: aqua;
-} */
+.section4__button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #30FFCD;
+    background-color: transparent;
+    width: 192px;
+    height: 48px;
+    border: 2px solid #33DFC0;
+    border-radius: 48px;
+}
 
-/* section_4 styles end */
+/* section4 styles end */
 
 /* section5 styles start */
 
@@ -396,6 +404,10 @@ header {
 
 .section5-text {
     max-width: 370px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #382459;
 }
 
 .section5 img {
