@@ -477,33 +477,54 @@ header {
     margin: 89px 0;
 }
 
-.side-up,
-.side-down {
+.footer .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.side-up {
-    margin-bottom: 39px;
+.side-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.altlogo {
+    margin-bottom: 48px;
+}
+
+
+.side-center {
+    max-width: 269px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mail-tel {
     max-width: 196px;
+    margin-bottom: 39px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #382459;
+}
+
+.side-center .text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #382459;
+}
+
+.side-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .altadnsu {
-    margin: 0 22px;
+    margin-top: 14px;
+    margin-bottom: 61px;
 }
-
-.side-down .text {
-    max-width: 269px;
-}
-
-.instagram {
-    margin-right: 169px;
-}
-
-
 
 /* footer styles end */

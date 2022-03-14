@@ -1,5 +1,9 @@
 @media(max-width:540px) {
     /* general styles start */
+    
+    body {
+        min-width: 290px;
+    }
 
     .section-title {
         font-style: normal;
@@ -25,10 +29,29 @@
         padding: 32px;
     }
 
+
     .header-wrapper .header__image:nth-child(2),
     .header-wrapper .header__image:nth-child(3),
     .header-text {
         display: none;
+    }
+
+    .header-wrapper .header__image:first-child {
+        width: 140px;
+    }
+
+    .header-wrapper .header__image img {
+        width: 100%;
+    }
+
+    /* iconu düzəlt */
+
+    .header-container::after {
+        content: '';
+        background: url(../images/icons8-menu-20.png);
+        background-size: cover;
+        width: 54px;
+        height: 27px;
     }
 
     /* -------------------------- */
@@ -282,13 +305,19 @@
         border: 1px solid #30FFCD;
         position: relative;
         margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .section4-title::after {
-        content: '^';
-        position: absolute;
-        right: 20px;
-        top: 23px;
+        content: '';
+        background: url(../images/icons8-sort-down-12.png);
+        width: 12px;
+        height: 12px;
+        background-size: cover;
+
+
     }
 
     .leftside__text {
@@ -332,5 +361,103 @@
 
     /* section5 styles end */
 
+    /* section6 styles start */
+
+    .section6 {
+        padding: 166px 0 80px;
+    }
+
+    .section6 .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section6 img {
+        width: 99%;
+        left: auto;
+        right: -32px;
+        top: -230px;
+        z-index: -2;
+    }
+
+    .section6-title {
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .section6-text {
+        font-size: 11px;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .section6__form {
+        width: 193px;
+        height: 40px;
+        border-radius: 40px;
+        padding:9px 29px;
+    }
+
+    /* section6 styles end */
+
+    /* footer styles start */
+
+    .footer {
+        margin: 72px 0 51px;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .side-left {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 32px;
+    }
+
+    .altlogo {
+        margin-bottom: 0;
+        margin-right: 20px;
+        width: 120px;
+    }
+
+    .instagram {
+        width: 20px;
+    }
+
+    .side-center {
+        max-width: 100%;
+        align-items: flex-start;
+        margin-bottom: 64px;
+    }
+
+    .mail-tel {
+        max-width: 140px;
+        margin-bottom: 15px;
+        font-size: 11px;
+        line-height: 145%;
+    }
     
+    .side-center .text {
+        font-size: 11px;
+        line-height: 145%;
+    }
+
+    .side-right {
+        align-items: flex-start;
+    }
+
+    .altadnsu {
+        width: 96px;
+        margin: 0 0 21px 7px;
+    }
+
+    .alttehsil {
+        width: 110px;
+    }
+
+    /* footer styles end */
 }

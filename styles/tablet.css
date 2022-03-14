@@ -1,0 +1,65 @@
+@media(max-width:1050px) {
+    .section5-title {
+        max-width: 300px;
+    }
+
+
+
+    .section6 .content {
+        margin-right: 0;
+    }
+
+    .section6 img {
+        left: -70px;
+        top: -135px;
+        width: 61%;
+        min-width: 450px;
+        height: auto;
+    }
+
+    .section6-title {
+        max-width: 400px;
+    }
+
+    .section6-text {
+        max-width: 400px;
+    }
+}
+
+@media(max-width:980px) {
+    .header-text {
+        flex-direction: column;
+        justify-content: space-around;
+        width: auto;
+    }
+}
+
+@media(max-width:800px) {
+    .section5 img {
+        right: -40px;
+        top: -130px;
+        width: 350px;
+    }
+
+    .section6 {
+        padding: 152px 0 90px;
+    }
+
+    .section6 img {
+        left: -70px;
+        top: -100px;
+        width: 75%;
+        min-width: 320px;
+        height: auto;
+    }
+
+    .section6-title {
+        max-width: 300px;
+    }
+
+    .section6-text {
+        max-width: 300px;
+    }
+}
+
+/* 800px dən aşağı media - lar */
