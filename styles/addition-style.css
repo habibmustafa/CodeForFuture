@@ -62,4 +62,58 @@
     }
 }
 
-/* 800px dən aşağı media - lar */
+@media(max-width:750px) {
+    .header-text {
+        display: none;
+    }
+}
+
+@media(max-width:725px) {
+    .footer .container {
+        flex-wrap: wrap;
+    }
+
+    .altadnsu {
+        margin-bottom: 30px;
+    }
+
+    .side-left {
+        margin-bottom: 32px;
+    }
+}
+
+@media(max-width:700px) {
+    .section1-card:first-child {
+        margin-right: 120px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .grid-section {
+        gap: 40px 18%;
+    }
+
+    .section4-title {
+        font-size: 35px;
+    }
+
+    .section5 {
+        margin: 90px 0 70px;
+    }
+
+    .section5 img {
+        right: -55px;
+        top: -107px;
+        width: 320px;
+    }
+
+    .section5-text {
+        max-width: 340px;
+    }
+}
